@@ -11,6 +11,25 @@
   <body>
 <div id="container">
 <h1>STRESS CHECKLIST</h1>
+<h3>From Epicodus:</h3>
+<a href="https://www.learnhowtoprogram.com/intro-to-programming/arrays-looping/gathering-data-with-checkboxes">Epicodus: Gathering Data with Checkboxes</a><br>
+<a href="https://www.learnhowtoprogram.com/intro-to-programming/arrays-looping/transportation-survey-quiz-of-choice">Epicodus: Practice with Gathering Data</a>
+<h3>A Stress Test</h3>
+<ul>
+  <li>Include several questions.</li>
+  <ul>
+    <li>One that lists warning signs of being negatively affected by stress (loss of sleep, overwhelmed, etc)</li>
+    <li>One that lists health symptoms</li>
+    <li>Another that lists recommended coping methods.</li>
+  </ul>
+  <li>Then, based on user answers, provide some guidance: For instance, if a user reports 4 stress-related symptoms, and 6 warning signs apply to them, suggest some resources to help them out.</li>
+  <li>Or, if a user says 4 warning signs of high stress apply to them, but they also report using 5 of the recommended ways to manage stress, tell them they're doing a pretty good job.</li>
+  <li>Include at least 3 possible results.</li>
+</ul>
+<p>So it looks like we will have three groups of checkboxes: one for warning signs, one for health symptoms, and one for coping methods. Scores will be tallied for each group, and certain scores would lead to certain outcomes.</p>
+<p>My partner and I decided to make three divs for each group with unique IDs for jQuery purposes (#group1, #group2, #group3), and identical classes for CSS styling (.group). All three groups would be wrapped within a form tag with ID (#formOne), given a paragraph to label each group, and 12 checkboxes each, all with same name(input-name1, input-name2, input-name3), and all the checkboxes will have unique values. After the last div is closed out, a button will close it out before we wrap up the form. We will also need a place to display our outcomes, so a paragraph (#response) is added after the form. Here is how it should look (only one group of checkboxes shown):</p>
+<div class="pic" id="stressHTML">
+<p>And here is how it should look on the page:</p>
   <form id="formOne">
     <div id="group1" class="group">
       <p>Here is what you get.</p>
