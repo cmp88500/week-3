@@ -24,3 +24,15 @@ li {
   padding: 10px;
   margin: 5px 10px;
 }
+
+.pic {
+  width: 400px;
+  height: 150px;
+}
+
+#stressHTML {
+  background: url(img/checkbox_html.png);
+  background-size: cover;
+  background-position: center;
+  repeat: no-repeat;
+}
