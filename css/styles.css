@@ -26,13 +26,38 @@ li {
 }
 
 .pic {
-  width: 400px;
-  height: 150px;
+
+  background-size: contain;
+  background-position: center;
+  repeat: no-repeat;
+  margin: 20px;
 }
 
 #stressHTML {
   background: url(img/checkbox_html.png);
-  background-size: cover;
-  background-position: center;
-  repeat: no-repeat;
+
+}
+
+#vowel-html {
+  background: url(img/vowel-string-html.png);
+  width: 800px;
+  height: 350px;
+}
+
+#vowel-js {
+  background: url(img/vowel-string-jquery.png);
+  width: 800px;
+  height: 350px;
+}
+
+#leap-html {
+  background: url(img/leap-html.png);
+  width: 800px;
+  height: 350px;
+}
+
+#leap-js {
+  background: url(img/leap-js.png);
+  width: 800px;
+  height: 350px;
 }
